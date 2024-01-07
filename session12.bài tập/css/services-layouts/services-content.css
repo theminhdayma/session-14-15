@@ -1,0 +1,217 @@
+.content {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.content-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.content-top-services {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.introduce {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(175, 173, 181, 1);
+}
+
+.services-img {
+    width: 80%;
+    height: 700px;
+    margin: auto;
+}
+
+.dash {
+    width: 80%;
+    height: 1px;
+    background-color: rgba(243, 243, 243, 1);
+}
+
+.numerical-order {
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.numerical-order-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.list-item {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.number {
+    font-size: 58px;
+    font-family: Eudoxus Sans;
+    color: rgba(81, 133, 129, 1);
+    font-weight: 700;
+}
+
+.name {
+    font-size: 24;
+    font-weight: 700;
+    font-family: Eudoxus Sans;
+}
+
+.writing {
+    font-size: 18px;
+    font-weight: 500px;
+    color: rgba(175, 173, 181, 1);
+    font-family: Eudoxus Sans;
+}
+
+.logo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+
+.logo-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-left-top {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Eudoxus Sans;
+    color: rgba(255, 178, 63, 1);
+}
+
+.logo-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo-right-top {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Eudoxus Sans;
+    color: rgba(175, 173, 181, 1);
+}
+
+.logo-left-bottom {
+    font-size: 16px;
+    font-family: Eudoxus Sans;
+    font-weight: 700;
+    color: rgba(81, 133, 129, 1);
+}
+
+.background {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.background-left {
+    background-image: url(https://media.istockphoto.com/id/1299098384/vi/anh/n%E1%BB%99i-th%E1%BA%A5t-ph%C3%B2ng-ng%E1%BB%A7-hi%E1%BB%87n-%C4%91%E1%BA%A1i-h%C3%ACnh-%E1%BA%A3nh-ch%E1%BB%A9ng-kho%C3%A1n.jpg?s=612x612&w=0&k=20&c=gBZaqN9V0QU9k9rHH7A8i-omFlJ1J7i5c6XwqWSJDlE=);
+    width: 300px;
+    height: 400px;
+    background-position: center;
+}
+
+.information-1 {
+    width: 90%;
+    margin: auto;
+    color: white;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inf-1 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: Eudoxus Sans;
+}
+.inf-2 {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Eudoxus Sans;
+    position: relative;
+    bottom: 8px;   
+}
+.inf-3 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Eudoxus Sans;
+}
+
+
+.background-right {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.background-right-top {
+    background-image: url(https://media.istockphoto.com/id/1312439845/vi/anh/n%E1%BB%99i-th%E1%BA%A5t-ph%C3%B2ng-kh%C3%A1ch-%C4%91%E1%BA%A7y-phong-c%C3%A1ch-v%E1%BB%9Bi-c%C3%A2y-nh%C3%A0-%C4%91%E1%BA%B9p.jpg?s=612x612&w=0&k=20&c=vFikJ5_7bue1iapqhCnr8Q37dkzfGRXO_GfK9jBaJlo=);
+    width: 600px;
+    height: 195px;
+    background-position: center;
+}
+
+.information-2 {
+    width: 80%;
+    margin-top: 100px;
+    position: relative;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.background-right-bottom {
+    background-image: url(https://img.lovepik.com/photo/48011/0023.jpg_wh860.jpg);
+    width: 600px;
+    height: 195px;
+    background-position: center;
+}
+
+.end {
+    width: 80%;
+    display: flex;
+    gap: 750px;
+    justify-content: center;
+}
+
+.let-talk {
+    width: 130px;
+    height: 40px;
+    background-color: rgba(81, 133, 129, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

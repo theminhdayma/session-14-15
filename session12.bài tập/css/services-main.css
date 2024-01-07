@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+/* Import thông tin trong folder services-layots  */
+@import url(./services-layouts/services-label.css);
+@import url(./services-layouts/services-header.css);
+@import url(./services-layouts/services-content.css);
+@import url(./services-layouts/services-footer.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(239, 239, 239);
+}
+
+li {
+    list-style: none;
+}

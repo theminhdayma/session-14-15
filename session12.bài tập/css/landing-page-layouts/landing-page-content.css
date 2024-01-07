@@ -1,0 +1,400 @@
+.content {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.content-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.content-top-landing-page {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.star {
+    font-size: 0px;
+    color: rgba(255, 178, 63, 1);
+    position: relative;
+    top: -20px;
+}
+
+.introduce {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(175, 173, 181, 1);
+}
+
+.background-top {
+    background-image: url(https://media.istockphoto.com/id/1311768804/vi/anh/ph%C3%B2ng-kh%C3%A1ch-n%E1%BB%99i-th%E1%BA%A5t-trang-tr%E1%BA%A1i-m%C3%B4-h%C3%ACnh-t%C6%B0%E1%BB%9Dng-tr%E1%BB%91ng-trong-ph%C3%B2ng-tr%E1%BA%AFng-v%E1%BB%9Bi-%C4%91%E1%BB%93-n%E1%BB%99i-th%E1%BA%A5t-b%E1%BA%B1ng-g%E1%BB%97.jpg?s=612x612&w=0&k=20&c=5VcIz1jNHqQffFppB-RWceuYsAESHnSeFztVYcX2gs0=);
+    width: 80%;
+    height: 490px;
+    background-position: center;
+}
+
+.search {
+    margin: auto;
+    width: 70%;
+    height: 80px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    position: relative;
+    top: -40px;
+}
+
+.search-left {
+    display: flex;
+    align-items: center;
+    color: rgba(175, 173, 181, 1);
+}
+
+.search-proprty {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Eudoxus Sans;
+}
+
+.search-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    width: 130px;
+    height: 60px;
+    background-color: rgba(81, 133, 129, 1);
+    color: white;
+    font-weight: 700;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+
+.logo-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-left-top {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Eudoxus Sans;
+    color: rgba(255, 178, 63, 1);
+}
+
+.logo-right {
+    position: relative;
+    top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo-right-top {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Eudoxus Sans;
+    color: rgba(175, 173, 181, 1);
+}
+
+.logo-left-bottom {
+    font-size: 16px;
+    font-family: Eudoxus Sans;
+    font-weight: 700;
+    color: rgba(81, 133, 129, 1);
+}
+
+.information {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.information-item {
+    width: 394px;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inf-1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 40px;
+    position: relative;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inf-2 {
+    font-weight: 700;
+    font-family: Eudoxus Sans;
+    position: relative;
+    left: 20px;
+}
+
+.inf-3 {
+    font-family: Eudoxus Sans;
+    font-weight: 500;
+    color: rgba(175, 173, 181, 1);
+    position: relative;
+    left: 20px;
+}
+
+.topic-1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#product {
+    font-size: 18px;
+    font-family: Eudoxus Sans;
+    font-weight: 700;
+    color: rgba(255, 178, 63, 1);
+}
+
+.topic-item-1 {
+    font-weight: 700;
+    font-family: Eudoxus Sans;
+    font-size: 44px;
+}
+
+.topic-item-2 {
+    font-family: Eudoxus Sans;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(175, 173, 181, 1);
+}
+
+.product {
+    margin-top: 20px;
+    width: 135%;
+    display: flex;
+    gap: 140px;
+}
+
+.product-item {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.img {
+    width: 300px;
+    height: 400px;
+}
+
+#back {
+    font-family: Eudoxus Sans;
+    font-weight: 700;
+    position: relative;
+    left: 15px;
+}
+
+.name-product {
+    position: relative;
+    left: 15px;
+    font-weight: 700;
+    font-size: 12px;
+    color: rgba(175, 173, 181, 1);
+}
+
+.topic-2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.topic-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.learn-more {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(81, 133, 129, 1);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Eudoxus Sans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-bottom {
+    width: 500px;
+}
+
+.topic-right {
+    font-family: Eudoxus Sans;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.topic-right-top {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.topic-right-top-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.topic-right-img {
+    width: 450px;
+}
+
+.background-bottom {
+    background-image: url(https://img.freepik.com/premium-photo/minimalist-home-decor-template-featuring-boho-cozy-dining-room-space-contains-round-fa_410516-100499.jpg);
+    width: 300px;
+    height: 400px;
+    background-position: center;
+}
+
+.information-1 {
+    width: 90%;
+    margin: auto;
+    color: white;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.in-1 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: Eudoxus Sans;
+}
+.in-2 {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Eudoxus Sans;
+    position: relative;
+    bottom: 8px;   
+}
+.in-3 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Eudoxus Sans;
+}
+
+.arrow {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0px;
+}
+
+.arrow-left {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(81, 133, 129, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-right {
+    width: 50px;
+    height: 50px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(81, 133, 129, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-right-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.img-smaill {
+    width: 200px;
+    height: 200px;
+}
+
+.content-small {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content-small-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    gap: 470px;
+}
+
+.learn-more-1 {
+    width: 150px;
+    height: 40px;
+    background-color: rgba(81, 133, 129, 1);
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}

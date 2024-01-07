@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+/* Import thông tin trong folder products-layots  */
+@import url(./products-layouts/products-label.css);
+@import url(./products-layouts/products-header.css);
+@import url(./products-layouts/products-navbar.css);
+@import url(./products-layouts/products-content.css);
+@import url(./products-layouts/products-footer.css);
+
+/* Import thông tin trong folder products-base  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(239, 239, 239);
+}
+
+li {
+    list-style: none;
+}

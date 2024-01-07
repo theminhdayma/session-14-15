@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+/* Import thông tin trong folder landing-page-layouts  */
+@import url(./landing-page-layouts/landing-page-label.css);
+@import url(./landing-page-layouts/landing-page-header.css);
+@import url(./landing-page-layouts/landing-page-content.css);
+@import url(./landing-page-layouts/landing-page-footer.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(239, 239, 239);
+}
+
+li {
+    list-style: none;
+}

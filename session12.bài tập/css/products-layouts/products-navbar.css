@@ -1,0 +1,123 @@
+.navbar {
+    margin-top: 100px;
+    width: 100%;
+    height: 800px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-top {
+    font-family: Eudoxus Sans;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-top-products {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.introduce {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(175, 173, 181, 1);
+}
+
+.background {
+    background-image: url(https://aeros.vn/upload/images/mau-nha-bep-dep-hien-dai-16.webp);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+
+.background-item {
+    margin: auto;
+    width: 95%;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.background-item-left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(21, 20, 17, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-right {
+    position: relative;
+    left: 850px;
+}
+
+.item-between {
+    font-family: Eudoxus Sans;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-between-top {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(81, 133, 129, 1);
+    font-size: 13px;
+    font-weight: 25.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-between-between {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.item-between-bottom {
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.background-dots {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.background-dots-bottom {
+    position: relative;
+    top: -30px;
+    display: flex;
+    gap: 10px;
+}
+
+.dots {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(155, 155, 155);
+}
+
+.dots-white{
+    background-color: white;
+}
